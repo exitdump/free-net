@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আপনিও পেতে পারেন ৯ কোটি টাকা থাকে যদি পুরনো ১ টাকার কয়েন</title>
+<p> এখনকার দিনে আত্মনিভর হতে কেই না চায়। নিজে ব্যাবসা করে নিজের স্বপ্ন পূরণ করতে সকলেরই মন চায়।
+
+ছেলে হোক বা মেয়ে সকলেরই আত্মনিভর হতে চায়। কিন্তু সবসময় তো সাধ থাকলেই সাধ্য থাকে না।
+
+আর তাই নিজের ইচ্ছে স্বপ্ন থাকা সত্ত্বেও কখনও পিছিয়ে যেতে হয়। কিন্তু আজ আপনাকে এমন একটা কথা বলবো যার ফলে আপনি আপনার স্বপ্ন বলুন বা শখ সবই পূরণ করতে পারবেন এক নিমেষে। এমনকি কোটিপতি ও হতে পারবেন আপনি।
+
+তবে, তার জন্য আপনার কাছে থাকতে হবে ১টাকার কয়েন। কিন্তু, এ কয়েন যে সে কয়েন নয়। ১৯৮৫ সালের আগের কয়েন যদি থাকে আপনার কাছে তবে সেটা বিক্রি করে হতে পারবেন কোটিপতি।
+
+OLX এ গিয়ে নিজের নাম রেজিস্টার করে কয়েনটিকে বিক্রি করতে পারবেন।
+
+তাহলে, যাদের পুরোনো এন্টিক কয়েন জমানোর শখ রয়েছে তাঁরা আর দেরি না করে এক্ষুনি এই সুবর্ণ সুযোগ হাতে তুলে নিন। পেয়ে যান ৯.৯৯ কোটি টাকা। আর নিমেষেই হয়ে যান কোটিপতি।
+
+ইন্টারনেট এর মাধ্যমে আপনি নিলামে তুলতে পারবেন পুরোনো নোট ও কয়েন <\p>
+<style>
+    body{
+        margin:0 auto;
+    }
+    .img-container{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .img-container img{
+        width: 100%;
+    }
+    .img-container h1{
+        background-color: #00d320;
+        width: 100%;
+    }
+    body> h1{
+        text-align: center;
+        font-size: 25px;
+    }
+    button{
+        background-color: #ff6d10;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 75%;
+        border-radius: 50px;
+        height: 70px;
+        margin: auto;
+        color: white;
+        font-size: large;
+        margin-top: 25px;
+        margin-left: 60px;
+    }
+</style>
+
+</head>
+<body>
+    <div class="img-container">
+        <img src="img/coin.jpg" alt="">
+   
+    </div>
+   
+   
+    
+    
+</body>
+</html>
