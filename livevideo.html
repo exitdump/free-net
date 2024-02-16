@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Streaming Page</title>
+  <style>
+    #video-container {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    video {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="video-container">
+    <video id="live-stream" controls autoplay></video>
+  </div>
+
+  <script>
+    // Get reference to video element
+    const video = document.getElementById('live-stream');
+
+    // URL of the live stream
+    const streamURL = 'YOUR_LIVE_STREAM_URL';
+
+    // Create MediaSource object
+    const mediaSource = new MediaSource();
+
+    // Set video source to MediaSource object
+    video.src = URL.createObjectURL(mediaSource);
+
+    // Event listener for MediaSource open event
+    mediaSource.addEventListener('sourceopen', function() {
+      // Create source buffer
+      const sourceBuffer = mediaSource.addSourceBuffer('video/mp4; codecs="avc1.42E01E, mp4a.40.2"');
+
+      // Fetch live stream segments and append to the buffer
+      fetchSegments(streamURL, sourceBuffer);
+    });
+
+    // Function to fetch and append video segments
+    async function fetchSegments(url, sourceBuffer) {
+      while (true) {
+        try {
+          // Fetch video segment
+          const response = await fetch(url);
+
+          // Read video segment as ArrayBuffer
+          const segment = await response.arrayBuffer();
+
+          // Append video segment to the source buffer
+          sourceBuffer.appendBuffer(segment);
+        } catch (error) {
+          console.error('Error fetching segment:', error);
+        }
+      }
+    }
+  </script>
+</body>
+</html>
